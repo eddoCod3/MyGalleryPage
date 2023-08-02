@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>My Gallery</title>
+  </head>
+  <body>
+    <header>
+      <nav class="main-nav">
+        <label class="switch">
+          <input type="checkbox">
+          <span onclick="changeTheme()" class="slider round"></span>
+        </label>
+      </nav>
+    </header>
+    <main>
+    <section>
+      <div class="container-profile">
+        <img src="img/profilePhoto.png" alt="profile" class="profile-picture">
+        <h1>Rodney Cotton</h1>
+        <p>Helsinki, Finland</p>
+      </div>
+    
+      <section class="profile-links">
+        <div class="link">
+          <span>100</span>
+          Post
+        </div>
+        <div class="link">
+          <span>2,242</span>
+          Follower</div>
+        <div class="link">
+          <span>1,432</span>
+          Following</div>
+      </section>
+    </section>
+    <section class="main-image-gallery">
+      <div class="card" style="background-image: url(img/photo1.png)"></div>
+      <div class="card card-width" style="background-image: url(img/photo2.png)"></div>
+      <div class="card card-width" style="background-image: url(img/photo3.png)"></div>
+      <div class="card card-tall"  style="background-image: url(img/photo4.png)"></div>
+      <div class="card" style="background-image: url(img/photo5.png)"></div>
+      <div class="card" style="background-image: url(img/photo6.png)"></div>
+    </section>
+  </main>
+
+  <footer >
+    <p>Made by EdDoCode</p>
+  </footer>
+
+  <script src="script.js"></script>
+  </body>
+</html>
